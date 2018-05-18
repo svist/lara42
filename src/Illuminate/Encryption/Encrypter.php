@@ -17,7 +17,7 @@ class Encrypter {
 	 *
 	 * @var string
 	 */
-	protected $cipher = MCRYPT_RIJNDAEL_128;
+	protected $cipher = 'AES-256-CBC';
 
 	/**
 	 * The mode used for encryption.
