@@ -24,7 +24,7 @@ class Encrypter {
 	 *
 	 * @var string
 	 */
-	protected $mode = MCRYPT_MODE_CBC;
+	protected $mode = 'cbc';
 
 	/**
 	 * The block size of the cipher.
